@@ -2,7 +2,7 @@
   <div id="app">
     <h1>Perhitungan IPK Mahasiswa</h1>
     <div>
-      <label for="nim">NIM:</label>
+      <label for="nim">NIM :</label>
       <input v-model="nim" id="nim" type="text" placeholder="Masukkan NIM" />
       
       <button @click="getIPK">Hitung IPK</button>
