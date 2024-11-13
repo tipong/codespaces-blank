@@ -1,4 +1,4 @@
-@import './base.css';
+/* @import './base.css'; */
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -15,7 +15,7 @@ input {
   margin: 10px 0;
   padding: 8px;
   width: 100%;
-  max-width: 400px;
+  /* max-width: 400px; */
 }
 
 button {
@@ -33,7 +33,7 @@ button:hover {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: rgb(0, 0, 0);
   transition: 0.4s;
   padding: 3px;
 }
@@ -43,14 +43,14 @@ a,
 }
 
 .btn-submit {
-  width: 70%;
+  /* width: 70%; */
   border-radius: 0.5rem;
 }
 
 @media (hover: hover) {
-  a:hover {
+  /* a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
